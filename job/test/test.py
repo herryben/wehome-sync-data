@@ -1,2 +1,4 @@
+from common.logger.logger import WeLogger
+logger = WeLogger('info').build()
 def sync():
-  print 'ha ha'
+  logger.info('ha ha')
